@@ -2,11 +2,12 @@
 Instance of the ECCOv4r2 (ECCOv4 release 2) used for adjoint sensitivity studies (Jones et al., 2019).
 This repository contains the specific setup files used for adjoint sensitivity studies, originally from
 Dani Jones and Gael Forget's setup (based on MITgcm checkpoint 66h).
-https://github.com/gaelforget/ECCOv4
-https://github.com/MITgcm/MITgcm/releases/tag/checkpoint66h
+https://github.com/gaelforget/ECCOv4  
+https://github.com/MITgcm/MITgcm/releases/tag/checkpoint66h  
 
 Now I have start updating the setup based on more recent release (ver 1.9 of Gael's setup and based on
-MITgcm checkpoint 67z) and tested on Archer2 (as of Oct 11th, 2024).
+MITgcm checkpoint 67z) and tested on Archer2 (as of Oct 11th, 2024). Planning to add more information
+and Python codes for preparation and post-processing.  
 
 The directory structure of this repository is as follows:
 
@@ -16,7 +17,7 @@ The directory structure of this repository is as follows:
 * masks : sample mask that defines the recently ventilated volume 
 * sample_results : example kinematic and dynamic sensitivity fields, and also a standard output file
 
-The masks and sample results can be read using the ECCOv4-r2 grid and the gcmfaces tool:
+The masks and sample results can be read using the ECCOv4-r2 grid and the gcmfaces tool (MATLAB):
 https://github.com/gaelforget/gcmfaces
 
 # Reference
