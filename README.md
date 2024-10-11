@@ -1,13 +1,12 @@
-# ECCO_v4_r2_config
-Instance of ECCOv4-r2 used for adjoint sensitivity studies
-
-This repository contains the specific setup files used for adjoint sensitivity studies. It is an instance of ECCOv4 release 2:
-
+# ECCOv4-r2_config (since 2023)
+Instance of the ECCOv4r2 (ECCOv4 release 2) used for adjoint sensitivity studies (Jones et al., 2019).
+This repository contains the specific setup files used for adjoint sensitivity studies, originally from
+Dani Jones and Gael Forget's setup (based on MITgcm checkpoint 66h).
 https://github.com/gaelforget/ECCOv4
-
-which is an instance of MITgcm (checkpiont 66h):
-
 https://github.com/MITgcm/MITgcm/releases/tag/checkpoint66h
+
+Now I have start updating the setup based on more recent release (ver 1.9 of Gael's setup and based on
+MITgcm checkpoint 67z) and tested on Archer2 (as of Oct 11th, 2024).
 
 The directory structure of this repository is as follows:
 
@@ -18,11 +17,9 @@ The directory structure of this repository is as follows:
 * sample_results : example kinematic and dynamic sensitivity fields, and also a standard output file
 
 The masks and sample results can be read using the ECCOv4-r2 grid and the gcmfaces tool:
-
 https://github.com/gaelforget/gcmfaces
 
-This setup is a typical instance of the code used for the results in the following paper:
-
-Jones, D. C., Boland, E. J., Meijers, A. J. S., Forget, G., Josey, S. A., Sallee, J.‐B., & Shuckburgh, E. ( 2019). Heat distribution in the Southeast Pacific is only weakly sensitive to high‐latitude heat flux and wind stress. Journal of Geophysical Research: Oceans, 124. https://doi.org/10.1029/2019JC015460
+# Reference
+[1] Jones, D. C., Boland, E. J., Meijers, A. J. S., Forget, G., Josey, S. A., Sallee, J.‐B., & Shuckburgh, E. (2019). Heat distribution in the Southeast Pacific is only weakly sensitive to high‐latitude heat flux and wind stress. Journal of Geophysical Research: Oceans, 124. https://doi.org/10.1029/2019JC015460
 
 
